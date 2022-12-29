@@ -1,0 +1,227 @@
+@media screen and (max-width: 428px) {
+
+    /* body{
+    overflow: hidden; 
+   }
+.logo img{
+    margin-left: -5rem;
+   } */
+   body{
+    width: 100%;
+    overflow-x: hidden;
+   }
+   .head {
+       padding: 2rem 1rem;
+    }
+    nav {
+        /* margin-left: 14.5rem;
+    margin-top: 0rem; */
+        display: flex;
+    }
+
+    .Navmenu {
+        
+        flex-direction: column;
+        top: 6rem;
+        position: absolute;
+        left: 2rem;
+
+    }
+
+    .close {
+        display: block;
+        font-size: 2.2rem;
+        left: 1rem;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .Navbar {
+        position: absolute;
+        right: 0rem;
+        background-color: white;
+        display: none;
+        align-items: flex-start;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        width: 50%;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .active {
+        transform: translateX(0%);
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .burger.active .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger.active .line:nth-child(1) {
+        transform: translate(8px) rotate(45deg);
+        
+    }
+
+    .burger.active .line:nth-child(1) {
+        transform: translate(-8px) rotate(-45deg);
+    }
+    main{
+        margin-top: 15rem;
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        width: 100%;
+    }
+
+    .major-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 2rem;
+
+    }
+    .img-container{
+        width: 100%;
+    }
+    .img-container img {
+        width: 90%;
+        height: 15rem;
+        border-radius: 5px;
+        /* margin-left: 1.8rem; */
+    }
+
+    .container-word {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-word h1 {
+        /* margin-left: 1.5rem; */
+        font-size: 30px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        padding-left: 1rem;
+        /* margin-top: 1.4rem; */
+    }
+
+    .container-word p {
+        padding-left: 1rem;
+        width: 20rem;
+        /* margin-left: 1rem; */
+        font-size: 1.1rem;
+        font-family: 'Inter', sans-serif;
+        margin-top: 2.4rem;
+        font-weight: 400;
+        color: hsl(236, 13%, 42%);
+    }
+   
+/* 
+    button {
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+        padding: 1rem 3rem;
+        background-color: hsl(5, 85%, 63%);
+        border: none;
+        color: #FFFFFF;
+        font-family: 'Inter', sans-serif;
+    } */
+
+    .container-two {
+        background-color: hsl(240, 100%, 5%);
+        /* margin-left: 2.6rem;
+        margin-top: 3rem; */
+        /* height: 34.5rem;
+        width: 21rem; */
+        width: 75%;
+    }
+
+        .container-flex {
+            margin-top: 15rem;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            /* margin-left: 7rem; */
+        }
+
+
+    /* .flex-one-img img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .flex-one-word h1 {
+        font-size: 2rem;
+        margin-top: -0.4rem;
+    }
+
+    .flex-one-word h2 {
+        font-size: 1rem;
+    }
+
+    .flex-one-word h3 {
+        width: 13rem;
+        font-size: 1rem;
+        margin-top: 0.3rem;
+    }
+
+    .flex-two {
+        margin-left: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .flex-two-img img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .flex-two-word h1 {
+        font-size: 2rem;
+        margin-top: -0.4rem;
+    }
+
+    .flex-two-word h2 {
+        font-size: 1rem;
+    }
+
+    .flex-two-word h3 {
+        width: 13rem;
+        font-size: 1rem;
+        margin-top: 0.3rem;
+    }
+
+    .flex-three {
+        margin-left: 2.5rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .flex-three-img img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .flex-three-word h1 {
+        font-size: 2rem;
+        margin-top: -0.4rem;
+    }
+
+    .flex-three-word h2 {
+        font-size: 1rem;
+    }
+
+    .flex-three-word h3 {
+        width: 13rem;
+        font-size: 1rem;
+        margin-top: 0.3rem;
+    } */
+}
