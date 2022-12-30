@@ -6,7 +6,7 @@
     margin: 0%;
 }
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .head{
@@ -211,7 +211,7 @@ button{
 
 @media  screen and (max-width: 428px) {
 body{
-    overflow: hidden; 
+    overflow-x: hidden; 
    }
 .logo img{
     margin-left: -5rem;
