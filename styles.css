@@ -211,7 +211,8 @@ button{
 
 @media  screen and (max-width: 428px) {
 body{
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    width: 100%; 
    }
 .logo img{
     margin-left: -5rem;
@@ -226,7 +227,6 @@ nav{
     top: 6rem;
     position: absolute;
     left: 2rem;
-
 } 
 .close{
     display: block;
