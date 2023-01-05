@@ -62,7 +62,7 @@ nav{
     margin-top: 1.4rem;
 }
 .container-word p{
-    width: 25rem;
+    max-width: 25rem;
     margin-left: 9rem;
     font-size: 1.1rem;
     font-family: 'Inter', sans-serif;
@@ -81,7 +81,7 @@ button{
     width: 38%;
 }
 .container-one img{
-    width: 56vw;
+    max-width: 56vw;
     margin-left: 7rem;
     margin-top: 3rem;
 }
@@ -90,7 +90,7 @@ button{
     margin-left: 1.4rem;
     margin-top: 3rem;   
     height: 34.5rem;
-    width: 22vw;
+    max-width: 22vw;
 }
 .News-Word{
     margin-top: 2rem;
@@ -135,7 +135,7 @@ button{
     display: flex;
 }
 .flex-one-word{
-    width:50%;
+    max-width:50%;
 }
 .flex-one-img img{
     height: 75%;
@@ -163,7 +163,7 @@ button{
     margin-left:-6rem;
 }
 .flex-two-word{
-    width: 60%;
+    max-width: 60%;
 }
 .flex-two-img img{
     height: 75%;
@@ -191,7 +191,7 @@ button{
     margin-left:-3rem;
 }
 .flex-three-word{
-    width:58%;
+    max-width:58%;
 }
 .flex-three-img img{
     height: 75%;
