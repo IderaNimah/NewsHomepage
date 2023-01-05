@@ -49,10 +49,10 @@ nav{
 }
 .container-word{
     display: flex;
-    margin-left:0.3rem;
+    margin-left:-2rem;
 }
 .sub-word{
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 .container-word h1{
     margin-left: 5.5rem;
@@ -160,11 +160,10 @@ button{
 }
 .flex-two{
     display: flex;
-    margin-left:-4rem;
+    margin-left:-6rem;
 }
 .flex-two-word{
-    /* width: 18.5rem; */
-    width: 50%;
+    width: 60%;
 }
 .flex-two-img img{
     height: 75%;
@@ -189,10 +188,10 @@ button{
 }
 .flex-three{
     display: flex;
+    margin-left:-3rem;
 }
 .flex-three-word{
-    /* width:19rem; */
-    width: 50%;
+    width:58%;
 }
 .flex-three-img img{
     height: 75%;
