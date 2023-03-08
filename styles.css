@@ -224,8 +224,11 @@ button {
 }
 
 @media screen and (max-width: 428px) {
+  header{
+    margin-top: 2.5rem;
+  }
   .logo img {
-    margin-left: -5rem;
+    margin-left: -6rem;
   }
   .menu_bar {
     display: block;
