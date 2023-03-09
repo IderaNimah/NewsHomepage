@@ -30,13 +30,6 @@ header{
   height: 3px;
   background-color: black;
 }
-nav {
-  margin-left: 44rem;
-  margin-right: 14rem;
-  margin-top: 1rem;
-  display: flex;
-}
-
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -50,7 +43,6 @@ nav ul li {
 
 .major-container {
   display: flex;
-  /* height: 100vh; */
 }
 .container-word {
   display: flex;
@@ -235,6 +227,7 @@ button {
     margin-left: 13rem;
     margin-top: 0.5rem;
   }
+  
   nav {
     position: fixed;
     overflow: hidden;
@@ -243,7 +236,7 @@ button {
     top: 80px;
     right: 0;
     left: 0;
-    background-color: #172e80;
+    background-color: #ffff;
   }
   nav ul {
     display: block;
