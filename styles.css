@@ -225,7 +225,7 @@ button {
   .menu_bar {
     position: relative;
     display: block;
-    margin-left: 13rem;
+    margin-right: 1.3rem;
     margin-top: 0.5rem;
   }
   
@@ -262,10 +262,18 @@ button {
   .major-container {
     display: inline;
   }
+  .container-one{
+    margin: 1.1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .container-one img {
+    margin: 0 auto;
     max-width: 93%;
     height: 19rem;
-    margin-left: 1.5rem;
+    object-fit: cover;
+    /* margin-left: 1.5rem; */
   }
   .container-word {
     flex-direction: column;
