@@ -223,24 +223,26 @@ button {
     margin-left: -6rem;
   }
   .menu_bar {
+    position: relative;
     display: block;
     margin-left: 13rem;
     margin-top: 0.5rem;
   }
   
   nav {
-    position: fixed;
+    position: absolute;
     overflow: hidden;
     transition: height 0.3s ease-in;
     height: 0;
     top: 80px;
     right: 0;
     left: 0;
+    width: 0;
     background-color: #ffff;
   }
   nav ul {
     display: block;
-    margin: 20px 16px;
+    display: inline-grid;
   }
   nav ul li {
     list-style-type: none;
@@ -251,7 +253,10 @@ button {
     color:red;
   }
   .open {
-    height: 150px;
+    height: 296px;
+    width: 35%;
+    left: 13rem;
+    padding: 2rem;
   }
 
   .major-container {
