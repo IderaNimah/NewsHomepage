@@ -11,6 +11,7 @@ body {
 }
 header{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-left: 7rem;
   margin-top: 4rem;
@@ -31,6 +32,7 @@ header{
   background-color: black;
 }
 nav ul {
+  margin-right: 9.8rem;
   display: flex;
   justify-content: space-between;
   gap: 1.2rem;
@@ -60,7 +62,6 @@ nav ul li {
 }
 .container-word p {
   max-width: 25rem;
-  margin-left: 9rem;
   font-size: 1.1rem;
   font-family: "Inter", sans-serif;
   margin-top: 2.4rem;
@@ -68,14 +69,12 @@ nav ul li {
   color: hsl(236, 13%, 42%);
 }
 button {
-  margin-left: 9rem;
   margin-top: 1.5rem;
   padding: 1rem 3rem;
   background-color: hsl(5, 85%, 63%);
   border: none;
   color: #ffffff;
   font-family: "Inter", sans-serif;
-  width: 38%;
 }
 .container-one img {
   max-width: 56vw;
@@ -272,7 +271,7 @@ button {
     max-width: 93%;
     height: 19rem;
     object-fit: cover;
-    /* margin-left: 1.5rem; */
+    
   }
   .container-word {
     flex-direction: column;
@@ -287,7 +286,7 @@ button {
 
   .container-word p {
     width: 20rem;
-    margin-left: 4rem;
+    margin-left: 3.5rem;
     font-size: 1.1rem;
     font-family: "Inter", sans-serif;
     margin-top: 1.4rem;
