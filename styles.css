@@ -50,15 +50,14 @@ nav ul li {
   display: flex;
   margin-left: -2rem;
 }
-.sub-word {
-  margin-left: 4rem;
-}
 .container-word h1 {
-  margin-left: 5.5rem;
+  margin-left: 8.5rem;
   font-size: 3.7rem;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   margin-top: 1.4rem;
+  max-width: 25rem;
+  line-height: 1.1;
 }
 .container-word p {
   max-width: 25rem;
@@ -277,11 +276,12 @@ button {
     flex-direction: column;
   }
   .container-one h1 {
-    margin-left:-0.5rem;
+    margin-left:3.4rem;
+    max-width: 19rem;
+    margin-top: 1.4rem;
     font-size: 2.7rem;
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    margin-top: 1.4rem;
   }
 
   .container-word p {
@@ -294,7 +294,7 @@ button {
     color: hsl(236, 13%, 42%);
   }
   button {
-    margin-left: 4rem;
+    margin-left: 3.7rem;
     margin-top: 1.5rem;
     padding: 1rem 2rem;
     background-color: hsl(5, 85%, 63%);
